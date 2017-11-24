@@ -59,3 +59,9 @@
 .contracted_search button span {
   margin: 0.4rem;
 }
+
+.logo {
+  width: 9rem;
+  position: absolute;
+  margin: 0.4rem;
+}

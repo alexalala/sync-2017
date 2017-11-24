@@ -20,7 +20,7 @@ module.exports = {
       test: /\.css$/,
       use: [ 'style-loader', 'css-loader']
     }, {
-      test: /\.(eot|svg|ttf|woff|woff2)$/,
+      test: /\.(eot|svg|ttf|woff|woff2|jpg|png)$/,
       loader: 'url-loader',
       options: {
         limit: 10000
@@ -30,6 +30,7 @@ module.exports = {
   devServer: {
     hot: true,
     inline: true,
-    contentBase: path.resolve(__dirname, 'dist')
+    contentBase: path.resolve(__dirname, 'dist'),
+    historyApiFallback: true,
   }
 };

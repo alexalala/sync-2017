@@ -6,14 +6,16 @@ import {
   Switch
 } from 'react-router-dom'
 
-import Configuration from './configuration';
+import MainPage from './main_page';
+import ResultsPage from './results_page';
 export default class App extends Component {
   render () {
     return (<div className="App">
       <Router>
-          <Switch>
-            <Route exact path="/" component={Configuration}/>
-          </Switch>
+        <Switch>
+          <Route exact path="/" component={MainPage}/>
+          <Route exact path="/results" component={ResultsPage}/>
+        </Switch>
       </Router>
       </div>)
   }
