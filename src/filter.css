@@ -1,0 +1,18 @@
+.filter {
+  height: 20vh;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-top: 7vh;
+  position: absolute;
+  border: solid 1px black;
+}
+
+.filter div {
+  display: inline-block;
+  width: 33%;
+  height: 100%;
+}
+
+.filter div h3 {
+  margin: 0.5rem;
+}

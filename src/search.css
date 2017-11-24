@@ -8,7 +8,7 @@
 .expanded_search input {
   position: relative;
   display: inline-block;
-  margin: 50vh 0 0 35vh;
+  margin: 50vh 0 0 25vw;
   width: 50vw;
   height: 5vh;
   background-color: black;
@@ -25,6 +25,10 @@
   font-size: 1.2rem;
 }
 
+.expanded_search button span {
+  margin: 0.4rem;
+}
+
 .contracted_search {
   height: 5vh;
   width: 100vw;
@@ -34,7 +38,7 @@
 .contracted_search input {
   position: relative;
   display: inline-block;
-  margin-left: 35vh;
+  margin-left: 25vw;
   width: 50vw;
   height: 5vh;
   border-color: white;
@@ -49,4 +53,8 @@
   font-size: 1.2rem;
   border-style: none;
   background-color: white;
+}
+
+.contracted_search button span {
+  margin: 0.4rem;
 }
