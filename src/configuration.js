@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Search from './search';
 import Filter from './filter';
 import ItemOfClothing from './item_of_clothing';
+import ItemModal from './item_modal';
 
 export default class Configuration extends Component {
   render () {
@@ -17,6 +18,7 @@ export default class Configuration extends Component {
           <ItemOfClothing />
           <ItemOfClothing />
         </div>
+        <ItemModal />
       </div>
     );
   }
