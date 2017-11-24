@@ -3,9 +3,11 @@ import './search.css';
 
 export default class Search extends Component {
   render () {
-    const placeholder = "foo";
+    const placeholder = "Search";
     return (
-      <input type="text" placeholder={placeholder} />
+      <div className="expanded_search">
+        <input type="text" placeholder={placeholder} />
+      </div>
     );
   }
 }

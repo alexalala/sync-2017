@@ -5,8 +5,7 @@ export default class Configuration extends Component {
   render () {
     return (
       <div>
-      <h1>My App</h1>
-      <Search />
+        <Search />
       </div>
     );
   }
