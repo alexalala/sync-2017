@@ -5,6 +5,7 @@ export default class ItemOfClothing extends Component {
   render () {
     return (
       <div className="item">
+      {/* On click open modal */}
         <div className="img">
         </div>
         <p>ASOS</p>

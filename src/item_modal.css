@@ -11,18 +11,72 @@
   background-color: rgba(0,0,0,0.4);
 }
 
+.item_modal p {
+  margin: 1vh;
+  font-size: 1.2rem;
+}
+
 .item_modal_content {
   background-color: #fefefe;
   margin: 15% auto;
   padding: 20px;
+  position: relative;
   border: 1px solid #888;
-  width: 80%;
+  width: 75%;
   height: 55vh;
+  display: flex;
 }
 
+.item_modal_content div {
+  display: inline-block;
+}
 .close {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.avatar,
+.chosen_item {
+  height: 85%;
+  width: 45%;
+  margin: 2%;
+}
+
+.avatar {
+  border: 1px solid black;
+}
+
+.item_image {
+  height: 85%;
+  width: 90%;
+  margin-left: 5%;
+  background-color: black;
+}
+
+.links {
+  position: absolute;
+  margin-top: 34%;
+  width: 90%;
+  bottom: 5%;
+}
+
+.links p {
+  display: inline-block;
+}
+
+.purchase {
+  position: absolute;
+  right: 0;
+  border: 1px solid black;
+  background-color: white;
+  font-size: 1.5rem;
 }
