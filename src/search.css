@@ -3,6 +3,7 @@
   width: 100vw;
   background-color: black;
   position: absolute;
+  z-index: 1;
 }
 
 .expanded_search input {
