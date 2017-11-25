@@ -17,7 +17,9 @@ export default class Search extends Component {
     const correctLogo = type === 'CONTRACTED' ? logo : logoWhite;
     return (
       <div className={wrappingClassName}>
-        <img className="logo" src={correctLogo} />
+        <Link to="/">
+          <img className="logo" src={correctLogo} />
+        </Link>
         <input type="text" placeholder={placeholder} />
         <Link to="/results">
         <button type="submit">

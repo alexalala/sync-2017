@@ -5,16 +5,12 @@
 
 .item p {
   display: inline-block;
-}
-
-/* cant get to work wah */
-.item p:nth-child(2) {
-  text-align: right;
+  margin: 0.5rem 2rem;
 }
 
 .img {
   margin-top: 1rem;
-  background-color: blue;
+  border: 1px solid black;
   height: 20rem;
   width: 15rem;
 }
