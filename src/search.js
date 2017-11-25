@@ -20,6 +20,9 @@ export default class Search extends Component {
         <Link to="/">
           <img className="logo" src={correctLogo} />
         </Link>
+        <Link to="/me">
+          <p>Avatar Creator</p>
+        </Link>
         <input type="text" placeholder={placeholder} />
         <Link to="/results">
         <button type="submit">

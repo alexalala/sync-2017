@@ -29,6 +29,7 @@
 
 .expanded_search p {
   color: white;
+  text-align: right;
 }
 
 .contracted_search p {
