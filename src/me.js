@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import ReactSlider from 'react-slider';
+import { Slider } from 'antd';
 import './me.css';
 
 import small from './assets/s.svg';
@@ -11,7 +13,6 @@ export default class Me extends Component {
     return (
       <div className="me">
         <img className="logo" src={logo} />
-        <h2>Avatar creator</h2>
         <div className="avatar">
           <div className="body"></div>
         </div>
@@ -35,6 +36,7 @@ export default class Me extends Component {
             <img className="lg" src={large} />
           </div>
           <h3>Choose your height</h3>
+          <Slider defaultValue={30} />
         </div>
       </div>
     )

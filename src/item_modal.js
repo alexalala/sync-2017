@@ -12,7 +12,7 @@ export default class ItemModal extends Component {
       <div className="item_modal">
         <div className="item_modal_content">
           {/* On click close modal */}
-          <div className="avatar"></div>
+          <div className="avatar_modal"></div>
           <div className="chosen_item">
             <p>{ brandName } / { itemName } / { price }</p>
             <div className="item_image"></div>

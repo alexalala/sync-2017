@@ -1,10 +1,17 @@
 .avatar,
 .size_selector {
-  width: 40%;
+  height: 80vh;
+  width: 47%;
   display: inline-block;
+  border: 1px solid black;
+  margin-top: 10vh;
 }
 
-.me h2 {
+.size_selector h3 {
+  margin-top: 3rem;
+}
+.me {
+  display: flex;
   text-align: center;
 }
 
@@ -34,6 +41,14 @@
   display: flex;
 }
 
-.gender label{
+.gender label {
   display: inline-block;
+}
+
+.ant-slider-track {
+  background-color: black;
+}
+
+.ant-slider-handle {
+  border: solid 2px black;
 }

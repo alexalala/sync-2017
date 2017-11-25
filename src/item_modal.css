@@ -44,14 +44,14 @@
     cursor: pointer;
 }
 
-.avatar,
+.avatar_modal,
 .chosen_item {
   height: 85%;
   width: 45%;
   margin: 2%;
 }
 
-.avatar {
+.avatar_modal {
   border: 1px solid black;
 }
 
@@ -76,7 +76,7 @@
 .purchase {
   position: absolute;
   right: 0;
-  border: 1px solid black;
+  border: 1px solid white;
   background-color: white;
   font-size: 1.5rem;
 }
