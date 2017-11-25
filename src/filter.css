@@ -6,7 +6,22 @@
   border: solid 1px black;
 }
 
+.expanded div {
+  margin-top: 3vh;
+  display: inline-block;
+  width: 31%;
+  height: calc(100% - 3vh);
+}
+
+.expanded a {
+  position: absolute;
+  margin: 2vh 2rem;
+  cursor: pointer;
+}
+
 .collapsed {
+  display: flex;
+  align-items: center;
   height: 6vh;
   width: 80vw;
   margin-left: 10vw;
@@ -14,11 +29,11 @@
   border: solid 1px black;
 }
 
-/*.filter div {
-  display: inline-block;
-  width: 33%;
-  height: 100%;
-}*/
+.collapsed a {
+  position: absolute;
+  margin: 0 2rem;
+  cursor: pointer;
+}
 
 .filter div h3 {
   margin: 0.5rem;
@@ -26,8 +41,6 @@
   font-size: 1.4rem;
 }
 
-.filter a {
-  position: absolute;
-  margin: 1rem;
-  cursor: pointer;
+.brand {
+  margin-left: 5vw;
 }

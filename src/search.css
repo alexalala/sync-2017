@@ -24,6 +24,7 @@
   color: white;
   border-color: black;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .expanded_search button span {
@@ -53,6 +54,7 @@
   font-size: 1.2rem;
   border-style: none;
   background-color: white;
+  cursor: pointer;
 }
 
 .contracted_search button span {
