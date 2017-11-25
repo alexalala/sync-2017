@@ -1,18 +1,33 @@
-.filter {
+.expanded {
   height: 20vh;
   width: 80vw;
   margin-left: 10vw;
   margin-top: 7vh;
-  position: absolute;
   border: solid 1px black;
 }
 
-.filter div {
+.collapsed {
+  height: 6vh;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-top: 7vh;
+  border: solid 1px black;
+}
+
+/*.filter div {
   display: inline-block;
   width: 33%;
   height: 100%;
-}
+}*/
 
 .filter div h3 {
   margin: 0.5rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.filter a {
+  position: absolute;
+  margin: 1rem;
+  cursor: pointer;
 }

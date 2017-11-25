@@ -33,7 +33,6 @@
 .contracted_search {
   height: 5vh;
   width: 100vw;
-  position: absolute;
 }
 
 .contracted_search input {
