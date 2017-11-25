@@ -3,16 +3,16 @@ import './item_modal.css';
 
 export default class ItemModal extends Component {
   render () {
-    const { open, handleClose } = this.props;
+    const { open, handleClose, img } = this.props;
 
     if (!open) {
       return null;
     }
 
     const brandName = "ASOS";
-    const itemName = "Black Hoodie";
+    const itemName = "Red Dress";
     const price = "£30";
-    const sizes = ["XS", "S", "M", "L", "XS"];
+    const sizes = ["XS", "S", "M", "L", "XL"];
     const hashtag = "mymarkit"
     return (
       <div className="item_modal">
@@ -20,7 +20,7 @@ export default class ItemModal extends Component {
           <div className="avatar_modal"></div>
           <div className="chosen_item">
             <p>{ brandName } / { itemName } / { price }</p>
-            <div className="item_image"></div>
+            <img className="item_image" src={img} />
             <p>{ sizes.join(" / ") }</p>
           </div>
           <span className="close" onClick={handleClose}>&times;</span>

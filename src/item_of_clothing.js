@@ -25,11 +25,10 @@ export default class ItemOfClothing extends Component {
     const { image } = this.props;
     return (
       <div className="item">
-      {/* On click open modal */}
         <img className="img" src={image} onClick={this.handleToggleModal}/>
         <p>ASOS</p>
         <p>£5.00</p>
-        <ItemModal open={this.state.modal} handleClose={this.handleToggleModal}/>
+        <ItemModal open={this.state.modal} img={image} handleClose={this.handleToggleModal}/>
       </div>
     );
   }
