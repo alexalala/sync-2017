@@ -33,6 +33,7 @@
   position: absolute;
   margin: 0 2rem;
   cursor: pointer;
+  color: black;
 }
 
 .filter div h3 {

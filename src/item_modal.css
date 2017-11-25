@@ -54,9 +54,15 @@
   border: 1px solid black;
 }
 
+.avatar_modal img {
+  height: 100%;
+  margin: 0;
+  border: 0;
+}
+
 .item_image {
-  height: 85%;
-  width: 90%;
+  height: 80%;
+  width: 60%;
   margin-left: 5%;
   background-color: black;
 }

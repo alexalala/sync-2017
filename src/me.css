@@ -27,7 +27,7 @@
   border: 1px solid black;
   padding: 3px;
   color: black;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .logo {
@@ -67,4 +67,8 @@
 
 .ant-slider-handle {
   border: solid 2px black;
+}
+
+.avatar img {
+  height: 100%;
 }

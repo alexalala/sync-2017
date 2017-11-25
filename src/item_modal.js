@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './item_modal.css';
+import red from './assets/red.png';
 
 export default class ItemModal extends Component {
   render () {
@@ -17,7 +18,9 @@ export default class ItemModal extends Component {
     return (
       <div className="item_modal">
         <div className="item_modal_content">
-          <div className="avatar_modal"></div>
+          <div className="avatar_modal">
+            <img src={red}/>
+          </div>
           <div className="chosen_item">
             <p>{ brandName } / { itemName } / { price }</p>
             <img className="item_image" src={img} />

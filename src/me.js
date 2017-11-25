@@ -8,6 +8,7 @@ import small from './assets/s.svg';
 import medium from './assets/m.svg';
 import large from './assets/l.svg';
 import logo from './assets/main.png';
+import female from './assets/female.png'
 
 export default class Me extends Component {
   render () {
@@ -17,7 +18,7 @@ export default class Me extends Component {
           <img className="logo" src={logo} />
         </Link>
         <div className="avatar">
-          <div className="body"></div>
+          <img className="body" src={female}/>
         </div>
         <div className="size_selector">
           <h3>Choose your gender</h3>
