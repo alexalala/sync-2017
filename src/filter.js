@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+import ReactSlider from 'react-slider';
+import { Slider } from 'antd';
 import './filter.css';
+import colours from './assets/colour-wheel.jpg';
 
 export default class Filter extends Component {
   constructor () {
@@ -29,15 +32,15 @@ export default class Filter extends Component {
           <a onClick={this.handleToggleCollapse}>Filters -</a>
           <div className="brand">
             <h3>Brand</h3>
-            {/* Replace with v-for equivalent for each brand */}
+            <ul>
+              <li>ASOS</li>
+              <li>New Look</li>
+              <li>Boohoo</li>
+            </ul>
           </div>
           <div className="colour">
             <h3>Colours</h3>
-            {/* Colour wheel, maybe JS plugin */}
-          </div>
-          <div className="cost">
-            <h3>Price Range</h3>
-            {/* Draggable slider */}
+            <img src={colours} />
           </div>
         </div>
       )

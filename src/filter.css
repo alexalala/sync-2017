@@ -4,13 +4,15 @@
   margin-left: 10vw;
   margin-top: 7vh;
   border: solid 1px black;
+  display: flex;
 }
 
 .expanded div {
   margin-top: 3vh;
   display: inline-block;
-  width: 31%;
+  width: 10%;
   height: calc(100% - 3vh);
+  margin: 0 15%;
 }
 
 .expanded a {
@@ -27,6 +29,7 @@
   margin-left: 10vw;
   margin-top: 7vh;
   border: solid 1px black;
+  color: black;
 }
 
 .collapsed a {
@@ -44,4 +47,8 @@
 
 .brand {
   margin-left: 5vw;
+}
+
+.colour img {
+  width: 10vw;
 }

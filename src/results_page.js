@@ -3,7 +3,7 @@ import Search from './search';
 import Filter from './filter';
 import ItemOfClothing from './item_of_clothing';
 import { Route, Link } from 'react-router-dom';
-import rd1 from './assets/rd1.jpeg'
+import rd1 from './assets/rd1.jpg'
 import rd2 from './assets/rd2.jpeg'
 import rd3 from './assets/rd3.jpeg'
 import rd4 from './assets/rd4.jpg'
