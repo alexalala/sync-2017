@@ -1,0 +1,39 @@
+.avatar,
+.size_selector {
+  width: 40%;
+  display: inline-block;
+}
+
+.me h2 {
+  text-align: center;
+}
+
+.logo {
+  width: 9rem;
+  position: absolute;
+  margin: 0.4rem;
+}
+
+.bodies img {
+  width: 20%;
+}
+
+.small {
+  height: 6.4rem;
+}
+
+.med {
+  height: 6.5rem;
+}
+
+.lg {
+  height: 7rem;
+}
+
+.gender {
+  display: flex;
+}
+
+.gender label{
+  display: inline-block;
+}

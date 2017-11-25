@@ -27,6 +27,13 @@
   cursor: pointer;
 }
 
+.expanded_search p {
+  color: white;
+}
+
+.contracted_search p {
+  display: none;
+}
 .expanded_search button span {
   margin: 0.4rem;
 }

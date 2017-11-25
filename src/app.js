@@ -8,13 +8,15 @@ import {
 
 import MainPage from './main_page';
 import ResultsPage from './results_page';
+import Me from './me';
 export default class App extends Component {
   render () {
     return (<div className="App">
       <Router>
         <Switch>
           <Route exact path="/" component={MainPage}/>
-          <Route exact path="/results" component={ResultsPage}/>
+          <Route path="/results" component={ResultsPage}/>
+          <Route path="/me" component={Me}/>
         </Switch>
       </Router>
       </div>)
