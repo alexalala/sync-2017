@@ -26,8 +26,10 @@ export default class ItemOfClothing extends Component {
     return (
       <div className="item">
         <img className="img" src={image} onClick={this.handleToggleModal}/>
-        <p>ASOS</p>
-        <p>£5.00</p>
+        <div class="item_deets">
+          <p>ASOS</p>
+          <p>£5.00</p>
+        </div>
         <ItemModal open={this.state.modal} img={image} handleClose={this.handleToggleModal}/>
       </div>
     );

@@ -10,9 +10,24 @@
 .size_selector h3 {
   margin-top: 3rem;
 }
+
 .me {
   display: flex;
   text-align: center;
+}
+
+.me > div {
+  margin: 5rem 1rem;
+}
+
+.me button {
+  margin-top: 8vh;
+  font-size: 2rem;
+  background-color: white;
+  border: 1px solid black;
+  padding: 3px;
+  color: black;
+  cursor: pointer; 
 }
 
 .logo {
@@ -39,6 +54,7 @@
 
 .gender {
   display: flex;
+  margin-left: 40%;
 }
 
 .gender label {

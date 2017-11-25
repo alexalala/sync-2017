@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactSlider from 'react-slider';
 import { Slider } from 'antd';
 import './me.css';
+import { Link } from 'react-router-dom';
 
 import small from './assets/s.svg';
 import medium from './assets/m.svg';
@@ -12,7 +13,9 @@ export default class Me extends Component {
   render () {
     return (
       <div className="me">
-        <img className="logo" src={logo} />
+        <Link to="/">
+          <img className="logo" src={logo} />
+        </Link>
         <div className="avatar">
           <div className="body"></div>
         </div>
@@ -37,6 +40,9 @@ export default class Me extends Component {
           </div>
           <h3>Choose your height</h3>
           <Slider defaultValue={30} />
+          <Link to="/">
+            <button>Shop now</button>
+          </Link>
         </div>
       </div>
     )
